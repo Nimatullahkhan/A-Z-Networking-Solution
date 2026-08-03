@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نیٹ ورکنگ اور سیکیورٹی سولیوشنز</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background: #0f172a; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { color: #38bdf8; font-size: 1.5rem; }
+        nav a { color: white; text-decoration: none; margin-left: 15px; font-weight: 500; }
+        .hero { background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1000&q=80'); background-size: cover; color: white; text-align: center; padding: 80px 20px; }
+        .hero h2 { font-size: 2.2rem; margin-bottom: 15px; color: #38bdf8; }
+        .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto 20px auto; }
+        .btn { background-color: #0284c7; color: white; padding: 10px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background-color: #0369a1; }
+        .services { padding: 50px 5%; text-align: center; }
+        .services h3 { font-size: 1.8rem; margin-bottom: 30px; color: #0f172a; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #0284c7; }
+        .card h4 { margin-bottom: 10px; color: #0f172a; font-size: 1.2rem; }
+        .contact { background: #e2e8f0; padding: 50px 5%; text-align: center; }
+        footer { background: #0f172a; color: white; text-align: center; padding: 15px; font-size: 0.9rem; }
+
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 25px;
+            right: 25px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 32px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>نیٹ ورک سولیوشنز</h1>
+        <nav>
+            <a href="#services">سروسز</a>
+            <a href="#contact">رابطہ کریں</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>پروفیشنل نیٹ ورکنگ اور سیکیورٹی سولیوشنز</h2>
+        <p>ہم آپ کے گھر اور کاروبار کے لیے محفوظ، تیز اور بااعتماد نیٹ ورک اور سیکیورٹی سسٹمز کی انسٹالیشن اور کنفیگریشن کی سروسز فراہم کرتے ہیں۔</p>
+        <a href="#contact" class="btn">ہم سے رابطہ کریں</a>
+    </section>
+
+    <section class="services" id="services">
+        <h3>ہમારી سروسز (Our Services)</h3>
+        <div class="grid">
+            <div class="card">
+                <h4>نیٹ ورک کنفیگریشن</h4>
+                <p>راوٹرز، سوئچز، VLANs اور IP ایڈریسنگ کی مکمل کنفیگریشن اور سیٹ اپ۔</p>
+            </div>
+            <div class="card">
+                <h4>IP کیمرے اور CCTV</h4>
+                <p>ہائی ڈیفینیشن HD IP کیمروں کی فٹنگ، نیٹ ورکنگ اور لائیو ویو کی سیٹنگ۔</p>
+            </div>
+            <div class="card">
+                <h4>ایکسس کنٹرول سسٹمز</h4>
+                <p>بائیو میٹرک، فیس ریکگنیشن (Face Recognition) اور سمارٹ لاکس کا قیام۔</p>
+            </div>
+            <div class="card">
+                <h4>سمارٹ سیکیورٹی گیٹس</h4>
+                <p>سلائیڈنگ گیٹ سینسرز اور انٹرکوم سسٹمز کی انسٹالیشن اور وائرنگ۔</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3>ہم سے رابطہ کریں</h3>
+        <p>کسی بھی پروجیکٹ کی مشاورت یا اقتباس (Quote) کے لیے فوری رابطہ کریں۔</p>
+        <br>
+        <p><strong>واٹس ایپ:</strong> 971588633804+</p>
+    </section>
+
+    <a href="https://wa.me/971588633804?text=السلام%20علیکم،%20مجھے%20نیٹ%20ورکنگ%20یا%20سیکیورٹی%20سروسز%20کے%20بارے%20میں%20معلومات%20چاہییں۔" class="whatsapp-float" target="_blank" title="WhatsApp Chat">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>© 2026 نیٹ ورک سولیوشنز - تمام حقوق محفوظ ہیں۔</p>
+    </footer>
+
+</body>
+      </html>
+      
